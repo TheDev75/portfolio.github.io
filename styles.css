@@ -1,0 +1,198 @@
+/* R�initialisation des marges et des paddings */
+/* Style pour le header */
+/* Style pour le logo */
+nav img {
+    position: absolute;
+    left: 0px; /* Position � gauche */
+    right: 0%;
+    top: 0; /* Position en haut */
+    width: 180px; /* Largeur du logo (ajustez selon votre logo) */
+    height: 180px; /* Hauteur automatique pour conserver les proportions */
+    margin-right: 0px; /* Marge � droite pour l'espace entre le logo et les autres �l�ments */
+}
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #100f0f;
+    color: #100f0f;
+    background-image: url(images/fondport.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 30px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 100px;
+    box-shadow: none;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: transparent;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: none;
+  }
+
+
+
+/* Barre de navigation */
+nav {
+    background-color: none;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    min-width: 30px;
+    margin-left: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+
+nav a:hover{
+    color:#b86614 ;
+    border-bottom: none;
+}
+
+.sous{
+    display: none;
+    box-shadow: none;
+    background-color: none;
+    position: absolute;
+    padding: 10px 2px;
+    width: 20%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: right;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    
+    padding: 2px ;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: transparent;
+}
+
+
+
+/* Styles de section */
+section {
+    padding: 20px;
+    background-color: none;
+    margin: 70px;
+    border-radius: 5px;
+    box-shadow: none;
+    
+}
+
+.paragraphe
+{
+    color: white;
+    font-size: 120%;
+}
+
+/* Styles de titre de section */
+section h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color:rgb(219, 173, 132)
+}
+
+section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(219, 173, 132)
+}
+
+section h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(219, 173, 132)
+}
+
+section h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+img {
+    border-radius: 0.375rem; /* 6px */
+}
+
+table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+    color: #fff;
+  }
+  
+/* Styles de lien */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 40px; /* Largeur de 150 pixels */
+    height: 40px; /* Hauteur de 100 pixels */
+	margin-right: 10px
+}
+
